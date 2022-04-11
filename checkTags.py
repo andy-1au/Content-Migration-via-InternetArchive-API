@@ -18,7 +18,7 @@ newTags = {'language', 'subject', 'volume', 'pub_date', 'call_number', 'publishe
            'copyright_status', 'possible_copyright_status', 'identifier', 'ppi', 'camera',
            'scandate'}
 
-whatChanged = "date changed to pub_date, possible-copyright-status to copyright_status"
+whatChanged = "date changed to pub_date, possible-copyright-status to copyright_status" # String to keep track of what changes
 
 # ---------------------CHANGE--------------------#
 wantedArray = ['language', 'subject', 'volume', 'pub_date', 'call_number', 'publisher', 'description',
