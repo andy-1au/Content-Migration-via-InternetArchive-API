@@ -16,7 +16,7 @@ print(df) #DEBUG
 #---------TEMP SECTION TO CHANGE HEADERS---------- (can remove)
 #.1 occurs when we have the same headers
 # try using. df.rename(index: ' ', string: ' ') 
-df.to_csv(concatenatePath)
+df.to_csv(concatenatePath, index=False)
 
 
 
